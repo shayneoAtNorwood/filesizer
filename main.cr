@@ -1,5 +1,4 @@
-require "dirutils"
-require "displayutils"
+require "./src/libs/**"
 
 class Main
 
