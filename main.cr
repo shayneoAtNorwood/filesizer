@@ -4,7 +4,7 @@ class Main
 
   def initialize
     @dirs = DirUtils::DirentrySizer.new "/Users/shayneoneill"
-    @dirs.run
+    #@dirs.run
     @crt = DisplayUtils::ScreenControl.new
 
   end

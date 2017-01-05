@@ -10,9 +10,8 @@ class ScreenControl
     @width = LibNcursesw.getmaxx @scr
     @height = LibNcursesw.getmaxy @scr
     @win = Crt::Window.new(@width, @height)
-    @win.start_color = LibNcursesw::COLOR_BLUE
     @win.clear
-    @win.print(5, 10, "hello world")
+    LibNcursesw::wprintw("hello world")
     #win.refresh
     doink = gets
     #Crt.done
