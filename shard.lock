@@ -1,0 +1,10 @@
+version: 1.0
+shards:
+  commander:
+    github: mrrooijen/commander
+    version: 0.3.3
+
+  crt:
+    github: maiha/crt.cr
+    version: 0.2.0
+

@@ -1,0 +1,26 @@
+name: pinch
+version: 0.1.0
+
+# authors:
+#   - name <shayne.oneill@norwoodsystems.com,>
+
+# description: |
+#   Short description of pinch
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
+
+dependencies:
+  crt:
+    github: maiha/crt.cr
+  commander:
+    github: mrrooijen/commander
+    version: ~> 0.3.3
