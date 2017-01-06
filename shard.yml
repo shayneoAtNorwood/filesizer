@@ -24,3 +24,5 @@ dependencies:
   commander:
     github: mrrooijen/commander
     version: ~> 0.3.3
+  termbox:
+    github: andrewsuzuki/termbox-crystal
