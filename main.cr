@@ -10,10 +10,11 @@ class Main
   end
 
   def run
+
   end
 
   def finalize
-
+      @crt.finalize
   end
 
 end
