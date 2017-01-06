@@ -21,7 +21,7 @@ module DirUtils
   end
 
   class DirentrySizer
-    def scan_dir(fn : String,entry : Entry)
+    def scan_dir(fn : String,entry : Entry) : Entry
       totalsize = 0
       size = 0
       fi = File
@@ -29,7 +29,6 @@ module DirUtils
       begin
         dir = Dir.new(fn)
       rescue
-        puts "Welp : #{fn}"
         return entry
       end
       #puts(dir)
@@ -76,7 +75,7 @@ module DirUtils
         #yield result
         result
       end
-    entry.contents = c
+      entry.contents = c
 
       return entry
     end
